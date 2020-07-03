@@ -1,0 +1,88 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+div {
+    background-color: #eea;
+}
+
+a {
+    background-color: #aea;
+}
+
+a:hover {
+    background-color: #faa;
+}
+
+a:active {
+    background-color: #ea0;
+}
+
+a.link {
+    background-color: #bba;
+}
+
+span {
+    background-color: #aee;
+}
+
+header {
+    background-color: #eba;
+}
+
+footer {
+    background-color: #eea;
+}
+
+article {
+    background-color: #ead;
+}
+
+h1 {
+    background-color: #eaa;
+}
+
+h2 {
+    background-color: #eaa;
+}
+
+h3, h4, h5, h6 {
+    background-color: #eaa;
+}
+
+aside {
+    background-color: #eaa;
+}
+
+summary {
+    background-color: #eaa;
+}
+
+nav {
+    background-color: #eaa;
+}
+
+strong {
+    background-color: #eaa;
+}
+
+footer {
+    background-color: #eaa;
+}
+
+u {
+    background-color: #eaa;
+}
+
+section {
+    background-color: #fea;
+}
+
+hr {
+    background-color: #aee;
+}
+
+p {
+    background-color: #eea;
+}
