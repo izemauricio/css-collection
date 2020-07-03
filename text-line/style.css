@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    color: #330;
+    font-weight: 900;
+    line-height: 2;
+}
+
+h3:after {
+    content: "";
+    background-color: #555;
+    height: 6px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
