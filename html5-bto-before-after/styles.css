@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", "Ubuntu", sans-serif;
+  color: #232323;
+  background-color: #232323;
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  width: 200px;
+  height: 100px;
+  color: rgb(38, 38, 38);
+  background-color: rgb(125, 125, 125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  position: relative;
+  z-index: 100;
+  transform-origin: center;
+}
+a:active {
+  background-color: #3beee262;
+}
+a::before,
+a::after {
+  content: "";
+  background-color: #d80a50;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transition: 0.8s;
+}
+a::before {
+  left: 0;
+}
+a::after {
+  right: 0;
+}
+a:hover::before,
+a:hover::after {
+  width: 50%;
+}
