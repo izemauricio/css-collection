@@ -109,7 +109,7 @@ a.effect:hover::before {
   letter-spacing: 1px;
 }
 
-.effect-16 ~ .focus-border {
+.effect1 ~ .focus-border {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -118,12 +118,12 @@ a.effect:hover::before {
   background-color: #90fdd8;
   transition: 0.4s;
 }
-.effect-16:focus ~ .focus-border {
+.effect1:focus ~ .focus-border {
   width: 100%;
   transition: 0.4s;
 }
 
-.effect-16 ~ label {
+.effect1 ~ label {
   display: none; /*Removi label*/
   width: 100%;
   position: absolute;
@@ -134,7 +134,7 @@ a.effect:hover::before {
   letter-spacing: 0.5px;
   transition: 0.4s;
 }
-.effect-16:focus ~ label {
+.effect1:focus ~ label {
   top: -16px;
   font-size: 12px;
   color: #90fdd8;
